@@ -1,0 +1,7 @@
+<ItemGroup>
+ <Compile Include="/Res/js/index.js" />
+ <Compile Include="/Res/js/detail.js" />
+ <Compile Include="/Res/js/detail2.js" />
+ <Compile Include="/Res/js/detail4.js" />
+ <Compile Include="/Res/js/list.js" />
+</ItemGroup>

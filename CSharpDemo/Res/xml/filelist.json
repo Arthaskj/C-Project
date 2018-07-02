@@ -1,0 +1,22 @@
+
+{  
+    "status": "success",  
+    "trainSystem": [  
+        {  
+            "key": "BX7",  
+            "name": "BX7",  
+            "img": ""  
+        },  
+        {  
+            "key": "BX5",  
+            "name": "BX5",  
+            "img": ""  
+        },  
+        {  
+            "key": "BX6",  
+            "name": "BX6",  
+            "img": ""  
+        }  
+    ]  
+}
+

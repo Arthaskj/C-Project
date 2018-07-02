@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+@Scripts.Render("~/bundles/jquery")   
+@Scripts.Render("~/bundles/lib")   
+@Styles.Render("~/Content/css")   
+@Styles.Render("~/Content/font")   
+<html lang="zh-CN">
+<head>
+    <title>test hash route</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    @*<script type="text/javascript" src="./lib/route.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-webfont.ttf">
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/bootstrap.min.js"></script>
+    <!-- <script src="./lib/vue.js"></script> -->
+    <!-- <script src="./lib/Router.js"></script> -->
+    <script src="./lib/kj.lib.js"></script>
+    <script src="./lib/kj.initRouter.js"></script>*@
+    <!-- <script type="text/javascript" src="./xml/filelist.json"></script> -->
+
+    <style type="text/css">
+        body {
+            font: 10.5pt arial;
+            color: #4d4d4d;
+            line-height: 150%;
+            width: 90%;
+        }
+
+        a {
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        #content {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body style="width:100%;height:100%">
+    <div id="PageBox">
+        <!-- 页面头部，通常放置菜单栏 -->
+        <div id="PageHeader" style="width:100%;height:40px;position:relation">
+
+        </div>
+        <!-- 页面主题内容部分，所有显示内容渲染在这 -->
+        <div id="PageContent" style="width:100%;height:calc(100% - 40px);position:relation">
+
+            <a href="#/js/index?index=1">异步加载首页</a>
+            <a href="#/js/list?list=1">异步加载列表页</a>
+            <a href="#/js/detail?detail=1">异步加载详情页</a>
+            <a href="#/js/detail2?detail=2">同步加载详情页</a>
+            <a href="#/js/detail4?detail=4">同步加载详情页</a>
+            <div id="content">
+                <!-- <p style="color:#333">默认首页内容</p> -->
+            </div>
+
+        </div>
+        <!-- 页面底部 -->
+        <div id="PageFooter">
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
